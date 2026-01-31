@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <base target="_self">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الخدمات الاستثمارية والهجرة إلى كازاخستان | فرص استثمارية وخدمات قانونية</title>
+  <meta name="description" content="خدمات استثمارية شاملة في كازاخستان - تأسيس الشركات، استخراج التأشيرات، الإقامات السنوية، واستشارات قانونية متكاملة">
+  <meta name="keywords" content="الاستثمار في كازاخستان, تأسيس شركات في كازاخستان, فيزا كازاخستان, إقامة كازاخستان, خدمات قانونية كازاخستان">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1E3A8A",
+            secondary: "#0F172A",
+            accent: "#3B82F6",
+            lightblue: "#EFF6FF"
+          },
+          fontFamily: {
+            arabic: ['Cairo', 'Tajawal', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Cairo','Tajawal',sans-serif; }
+    .hero-gradient { background: linear-gradient(135deg,#1E3A8A 0%,#0F172A 100%); }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+    .arabic-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+  </style>
+</head>
+
+<body class="min-h-screen bg-gray-50" dir="rtl">
+
+  <!-- Header & Navigation -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-4 relative">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-3 space-x-reverse">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+            <i class="fas fa-globe-asia text-white text-xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold text-secondary">كازاخستان<span class="text-primary">للخدمات</span></h1>
+            <p class="text-xs text-gray-500">الاستثمار والهجرة والخدمات القانونية</p>
+          </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div id="mainMenu" class="hidden md:flex space-x-8 space-x-reverse">
+          <a href="#home" class="text-gray-700 hover:text-primary font-medium transition-colors">الرئيسية</a>
+          <a href="#services" class="text-gray-700 hover:text-primary font-medium transition-colors">خدماتنا</a>
+          <a href="#investment" class="text-gray-700 hover:text-primary font-medium transition-colors">الاستثمار</a>
+          <a href="#immigration" class="text-gray-700 hover:text-primary font-medium transition-colors">الهجرة</a>
+          <a href="#contact" class="text-gray-700 hover:text-primary font-medium transition-colors">اتصل بنا</a>
+        </div>
+
+        <div class="flex items-center space-x-4 space-x-reverse">
+          <div class="hidden md:block">
+            <span class="text-gray-600"><i class="fas fa-phone-alt text-primary ml-2"></i>+77475401090</span>
+          </div>
+          <button id="freeConsultBtn" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-secondary transition-colors font-medium">
+            اطلب استشارة مجانية
+          </button>
+
+          <!-- Mobile Menu Button (fixed) -->
+          <button id="mobileMenuBtn" class="md:hidden text-gray-700" aria-label="فتح القائمة">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Panel -->
+      <div id="mobileMenuPanel" class="hidden md:hidden mt-4 bg-white shadow-lg rounded-xl p-4 space-y-3">
+        <a href="#home" class="block text-gray-700 hover:text-primary font-medium">الرئيسية</a>
+        <a href="#services" class="block text-gray-700 hover:text-primary font-medium">خدماتنا</a>
+        <a href="#investment" class="block text-gray-700 hover:text-primary font-medium">الاستثمار</a>
+        <a href="#immigration" class="block text-gray-700 hover:text-primary font-medium">الهجرة</a>
+        <a href="#contact" class="block text-gray-700 hover:text-primary font-medium">اتصل بنا</a>
+        <div class="pt-2 border-t">
+          <div class="text-gray-700">
+            <i class="fas fa-phone-alt text-primary ml-2"></i> +77475401090
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-gradient text-white">
+    <div class="container mx-auto px-4 py-16 md:py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold mb-6 arabic-shadow">هل تبحث عن فرص استثمارية ناجحة أو ترغب في الدراسة والاستقرار في كازاخستان؟</h1>
+          <p class="text-xl mb-8 opacity-90">نحن هنا لخدمتكم وتسهيل كافة الإجراءات القانونية</p>
+          <div class="flex flex-wrap gap-4">
+            <button id="startNowBtn" class="bg-accent text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              ابدأ رحلتك الآن
+            </button>
+            <button id="learnServicesBtn" class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              تعرف على خدماتنا
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="https://picsum.photos/600/400?random=10" alt="كازاخستان - فرص استثمارية ودراسية" class="rounded-xl shadow-2xl">
+          <div class="absolute -bottom-6 -left-6 bg-white text-secondary p-6 rounded-xl shadow-lg max-w-xs">
+            <div class="flex items-center mb-3">
+              <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center ml-3">
+                <i class="fas fa-check text-green-600"></i>
+              </div>
+              <h3 class="font-bold text-lg">نجاح مضمون</h3>
+            </div>
+            <p class="text-gray-600">نسبة نجاح 95% في معاملاتنا بفضل خبرتنا القانونية</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">✅ خدماتنا تشمل</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">نقدم حزمة متكاملة من الخدمات القانونية والاستشارية لتسهيل رحلتك إلى كازاخستان</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- الاستثمار -->
+        <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition-all duration-300">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+            <i class="fas fa-chart-line text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">🏗️ الاستثمار</h3>
+          <p class="text-gray-600 mb-4">استشارات استثمارية شاملة في السوق الكازاخي مع تحليل الفرص والمخاطر</p>
+          <ul class="space-y-2 mb-6">
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>دراسات جدوى متكاملة</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>تحليل السوق والمنافسين</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>تسهيلات التمويل والبنوك</span></li>
+          </ul>
+          <button class="serviceInquiryBtn w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-secondary transition-colors">
+            استفسر الآن
+          </button>
+        </div>
+
+        <!-- فتح الشركات -->
+        <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition-all duration-300">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+            <i class="fas fa-building text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">🏢 فتح الشركات</h3>
+          <p class="text-gray-600 mb-4">تأسيس وتسجيل الشركات التجارية بكافة أنواعها مع متابعة كافة الإجراءات القانونية</p>
+          <ul class="space-y-2 mb-6">
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>شركات ذات مسؤولية محدودة</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>شركات مساهمة عامة وخاصة</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>مكاتب تمثيل وفروع أجنبية</span></li>
+          </ul>
+          <button class="serviceInquiryBtn w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-secondary transition-colors">
+            استفسر الآن
+          </button>
+        </div>
+
+        <!-- تأشيرات -->
+        <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition-all duration-300">
+          <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
+            <i class="fas fa-passport text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">🎫 تأشيرات</h3>
+          <p class="text-gray-600 mb-4">استخراج الفيزا السياحية والطلابية بسرعة وكفاءة مع ضمان الموافقة</p>
+          <ul class="space-y-2 mb-6">
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>تأشيرات سياحية متعددة الدخول</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>تأشيرات طلابية للجامعات</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>تأشيرات عمل واستثمار</span></li>
+          </ul>
+          <button class="serviceInquiryBtn w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-secondary transition-colors">
+            استفسر الآن
+          </button>
+        </div>
+
+        <!-- الإقامات -->
+        <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100 transition-all duration-300">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+            <i class="fas fa-home text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">🛂 الإقامات</h3>
+          <p class="text-gray-600 mb-4">تأمين الإقامات السنوية (Business & Student Residency) مع تجديدها سنوياً</p>
+          <ul class="space-y-2 mb-6">
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>إقامة عمل للمستثمرين</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>إقامة دراسة للطلاب</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-check text-green-500 ml-2"></i><span>إقامة عائلية للمرافقين</span></li>
+          </ul>
+          <button class="serviceInquiryBtn w-full bg-primary text-white py-3 rounded-lg font-medium hover:bg-secondary transition-colors">
+            استفسر الآن
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment Opportunities Section -->
+  <section id="investment" class="py-16 bg-lightblue">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">فرص استثمارية في كازاخستان</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">اكتشف أبرز القطاعات الواعدة للاستثمار في الاقتصاد الكازاخي النامي</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="w-14 h-14 bg-blue-500 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-oil-can text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">الطاقة والموارد الطبيعية</h3>
+          <p class="text-gray-600 mb-4">كازاخستان من أكبر منتجي النفط والغاز في العالم مع احتياطيات هائلة من المعادن</p>
+          <ul class="space-y-2">
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-blue-500 text-xs ml-2"></i><span>استخراج وتكرير النفط</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-blue-500 text-xs ml-2"></i><span>الطاقة المتجددة</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-blue-500 text-xs ml-2"></i><span>التعدين والمعادن</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="w-14 h-14 bg-green-500 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-tractor text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">الزراعة والغذاء</h3>
+          <p class="text-gray-600 mb-4">مساحات شاسعة من الأراضي الخصبة مع إمكانيات هائلة للتصدير العالمي</p>
+          <ul class="space-y-2">
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-green-500 text-xs ml-2"></i><span>إنتاج الحبوب والمحاصيل</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-green-500 text-xs ml-2"></i><span>تربية الماشية والدواجن</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-green-500 text-xs ml-2"></i><span>تصنيع الأغذية</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-lg">
+          <div class="w-14 h-14 bg-purple-500 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-laptop-code text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-secondary mb-3">التكنولوجيا والابتكار</h3>
+          <p class="text-gray-600 mb-4">دعم حكومي كبير للتحول الرقمي وريادة الأعمال التكنولوجية</p>
+          <ul class="space-y-2">
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-purple-500 text-xs ml-2"></i><span>الذكاء الاصطناعي والبيانات</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-purple-500 text-xs ml-2"></i><span>التجارة الإلكترونية</span></li>
+            <li class="flex items-center text-gray-700"><i class="fas fa-circle text-purple-500 text-xs ml-2"></i><span>الخدمات المالية التقنية</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-white rounded-xl p-8 shadow-lg max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-secondary mb-6 text-center">مزايا الاستثمار في كازاخستان</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center ml-4">
+              <i class="fas fa-handshake text-blue-600"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-lg text-secondary mb-2">اتفاقيات تجارية دولية</h4>
+              <p class="text-gray-600">عضوية في الاتحاد الاقتصادي الأوراسي واتفاقيات تجارة حرة مع 50 دولة</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center ml-4">
+              <i class="fas fa-chart-line text-green-600"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-lg text-secondary mb-2">حوافز ضريبية جذابة</h4>
+              <p class="text-gray-600">إعفاءات ضريبية تصل إلى 10 سنوات للمشاريع الاستثمارية الكبرى</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center ml-4">
+              <i class="fas fa-map-marked-alt text-yellow-600"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-lg text-secondary mb-2">موقع جغرافي استراتيجي</h4>
+              <p class="text-gray-600">جسر بري بين أوروبا وآسيا مع شبكة نقل متطورة</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center ml-4">
+              <i class="fas fa-user-tie text-red-600"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-lg text-secondary mb-2">يد عاملة مؤهلة</h4>
+              <p class="text-gray-600">نظام تعليمي قوي مع خريجين مؤهلين في التخصصات التقنية والعلمية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Immigration & Study Section -->
+  <section id="immigration" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">الدراسة والاستقرار في كازاخستان</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">نظام تعليمي متطور وتكاليف معيشة مناسبة تجعل كازاخستان وجهة مثالية للطلاب والمقيمين</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold text-secondary mb-6">الدراسة في الجامعات الكازاخية</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-university text-blue-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">جامعات معترف بها عالمياً</h4>
+                <p class="text-gray-600">جامعات كازاخستان معترف بها من قبل اليونسكو والعديد من الدول العربية والأوروبية</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-money-bill-wave text-green-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">تكاليف دراسية مناسبة</h4>
+                <p class="text-gray-600">تكاليف الدراسة في كازاخستان أقل بنسبة 60% مقارنة بالدول الأوروبية والأمريكية</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-graduation-cap text-purple-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">برامج باللغة الإنجليزية</h4>
+                <p class="text-gray-600">تقدم العديد من الجامعات برامج دراسية باللغة الإنجليزية في التخصصات الطبية والهندسية</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-secondary mb-6">الإقامة والاستقرار</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-home text-yellow-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">تكاليف معيشة منخفضة</h4>
+                <p class="text-gray-600">تكاليف السكن والمعيشة في كازاخستان مناسبة جداً مقارنة بجودة الحياة المقدمة</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-shield-alt text-red-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">مجتمع آمن ومستقر</h4>
+                <p class="text-gray-600">كازاخستان من أكثر الدول أماناً واستقراراً في المنطقة مع معدلات جريمة منخفضة</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center ml-4">
+                <i class="fas fa-heart text-teal-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg text-secondary mb-2">رعاية صحية متطورة</h4>
+                <p class="text-gray-600">نظام صحي متطور مع مستشفيات مجهزة بأحدث التقنيات الطبية العالمية</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-secondary mb-6 text-center">الخطوات العملية للبدء</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="text-center">
+            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">1</div>
+            <h4 class="font-bold text-lg text-secondary mb-2">التشاور والتخطيط</h4>
+            <p class="text-gray-600">استشارة مجانية لتحديد أفضل الخيارات المناسبة لك</p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">2</div>
+            <h4 class="font-bold text-lg text-secondary mb-2">إعداد المستندات</h4>
+            <p class="text-gray-600">مساعدتك في تجهيز كافة المستندات المطلوبة بدقة</p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">3</div>
+            <h4 class="font-bold text-lg text-secondary mb-2">المتابعة والتسليم</h4>
+            <p class="text-gray-600">متابعة المعاملة حتى الحصول على النتيجة النهائية</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-secondary text-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">📍 تواصلوا معنا الآن</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">نحن هنا للإجابة على جميع استفساراتكم وتقديم الدعم الكامل لرحلتكم إلى كازاخستان</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <div class="space-y-8">
+            <div class="flex items-start">
+              <div class="w-14 h-14 bg-primary rounded-lg flex items-center justify-center ml-6">
+                <i class="fas fa-envelope text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-xl mb-2">البريد الإلكتروني</h4>
+                <p class="text-gray-300 text-lg">almayadin8@gmail.com</p>
+                <p class="text-gray-400 mt-2">نرد على جميع الاستفسارات خلال 24 ساعة</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-14 h-14 bg-primary rounded-lg flex items-center justify-center ml-6">
+                <i class="fas fa-phone-alt text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-xl mb-2">واتساب / اتصال</h4>
+                <p class="text-gray-300 text-lg">+77475401090</p>
+                <p class="text-gray-400 mt-2">متاحون للرد من الساعة 9 صباحاً حتى 6 مساءً</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="w-14 h-14 bg-primary rounded-lg flex items-center justify-center ml-6">
+                <i class="fas fa-map-marker-alt text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-xl mb-2">مكاتبنا</h4>
+                <p class="text-gray-300 text-lg">نور سلطان، كازاخستان</p>
+                <p class="text-gray-300">ألماتي، كازاخستان</p>
+                <p class="text-gray-400 mt-2">مكاتبنا مجهزة لاستقبالكم وتقديم الاستشارات الشخصية</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h4 class="font-bold text-xl mb-6">وسائل التواصل الاجتماعي</h4>
+            <div class="flex space-x-4 space-x-reverse">
+              <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" aria-label="Telegram">
+                <i class="fab fa-telegram"></i>
+              </a>
+              <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 text-gray-800">
+          <h3 class="text-2xl font-bold text-secondary mb-6">أرسل لنا رسالة</h3>
+
+          <!-- Fixed: Added name attributes -->
+          <form id="contactForm" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-700 mb-2">الاسم الكامل *</label>
+                <input name="fullName" type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+              </div>
+              <div>
+                <label class="block text-gray-700 mb-2">البريد الإلكتروني *</label>
+                <input name="email" type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-700 mb-2">رقم الهاتف *</label>
+                <input name="phone" type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+              </div>
+              <div>
+                <label class="block text-gray-700 mb-2">نوع الخدمة المطلوبة *</label>
+                <select name="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+                  <option value="">اختر الخدمة</option>
+                  <option value="investment">استشارات استثمارية</option>
+                  <option value="company">تأسيس شركات</option>
+                  <option value="visa">تأشيرات سياحية/طلابية</option>
+                  <option value="residency">إقامات عمل/دراسة</option>
+                  <option value="all">جميع الخدمات</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-gray-700 mb-2">الرسالة *</label>
+              <textarea name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-semibold hover:bg-secondary transition-colors">
+              إرسال الرسالة
+            </button>
+
+            <p id="formStatus" class="text-sm text-gray-600 hidden"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 space-x-reverse mb-6">
+            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+              <i class="fas fa-globe-asia text-white"></i>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold">كازاخستان<span class="text-primary">للخدمات</span></h2>
+              <p class="text-sm text-gray-400">الاستثمار والهجرة والخدمات القانونية</p>
+            </div>
+          </div>
+          <p class="text-gray-400 mb-6">شركة متخصصة في تقديم الحلول الاستثمارية والخدمات القانونية في كازاخستان. نساعدك في تحقيق أحلامك وطموحاتك في هذه الدولة الواعدة.</p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-6">روابط سريعة</h3>
+          <ul class="space-y-3">
+            <li><a href="#home" class="text-gray-400 hover:text-white transition-colors">الرئيسية</a></li>
+            <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">خدماتنا</a></li>
+            <li><a href="#investment" class="text-gray-400 hover:text-white transition-colors">الاستثمار في كازاخستان</a></li>
+            <li><a href="#immigration" class="text-gray-400 hover:text-white transition-colors">الدراسة والهجرة</a></li>
+            <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-6">خدماتنا</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors">استشارات استثمارية</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors">تأسيس الشركات</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors">تأشيرات سياحية وطلابية</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors">إقامات عمل ودراسة</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors">الخدمات القانونية</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold mb-6">النشرة الإخبارية</h3>
+          <p class="text-gray-400 mb-4">اشترك في نشرتنا الإخبارية لتصلك آخر المستجدات حول الاستثمار والهجرة إلى كازاخستان.</p>
+
+          <!-- Fixed: Added real form for newsletter -->
+          <form id="newsletterForm" class="flex">
+            <input id="newsletterEmail" name="newsletterEmail" type="email" placeholder="بريدك الإلكتروني" class="flex-grow px-4 py-3 rounded-l-lg bg-gray-800 text-white border-0 focus:outline-none" required>
+            <button type="submit" class="bg-primary px-6 py-3 rounded-r-lg font-medium hover:bg-blue-700 transition-colors" aria-label="اشتراك">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <p class="text-sm text-gray-500 mt-4">نحن نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.</p>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+        <p>© 2024 كازاخستان للخدمات. جميع الحقوق محفوظة. | <a href="#" class="hover:text-white transition-colors">سياسة الخصوصية</a> | <a href="#" class="hover:text-white transition-colors">شروط الخدمة</a></p>
+        <p class="mt-2 text-sm">مرخصة من قبل وزارة الاستثمار الكازاخية | رقم التسجيل: 987654321</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/77475401090" target="_blank" class="fixed bottom-6 left-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors z-40" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp text-2xl"></i>
+  </a>
+
+  <!-- Cookie Consent -->
+  <div id="cookieConsent" class="fixed bottom-0 right-0 left-0 bg-gray-900 text-white p-4 shadow-lg z-50 hidden">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="mb-4 md:mb-0 md:ml-6">
+          <p class="text-sm">نستخدم ملفات تعريف الارتباط لتحسين تجربتك. باستمرارك في زيارة هذا الموقع فإنك توافق على استخدامنا لملفات تعريف الارتباط.</p>
+        </div>
+        <div class="flex space-x-4 space-x-reverse">
+          <button id="cookieAccept" class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-secondary transition-colors">
+            قبول الكل
+          </button>
+          <button id="cookieSettings" class="bg-gray-700 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-600 transition-colors">
+            الإعدادات
+          </button>
+          <button id="cookieReject" class="bg-gray-800 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors">
+            رفض
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Smooth scrolling
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+            // Close mobile menu after click
+            const panel = document.getElementById('mobileMenuPanel');
+            if (panel && !panel.classList.contains('hidden')) panel.classList.add('hidden');
+          }
+        });
+      });
+
+      // Mobile menu toggle (fixed)
+      const mobileMenuButton = document.getElementById('mobileMenuBtn');
+      const mobileMenuPanel = document.getElementById('mobileMenuPanel');
+      if (mobileMenuButton && mobileMenuPanel) {
+        mobileMenuButton.addEventListener('click', function () {
+          mobileMenuPanel.classList.toggle('hidden');
+        });
+      }
+
+      // Hero buttons
+      document.getElementById('startNowBtn')?.addEventListener('click', () => {
+        document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+      });
+      document.getElementById('learnServicesBtn')?.addEventListener('click', () => {
+        document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' });
+      });
+      document.getElementById('freeConsultBtn')?.addEventListener('click', () => {
+        document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+      });
+
+      // Service inquiry buttons (fixed: no :contains)
+      document.querySelectorAll('.serviceInquiryBtn').forEach(button => {
+        button.addEventListener('click', function () {
+          const serviceType = this.closest('.service-card')?.querySelector('h3')?.textContent?.trim() || 'الخدمة';
+          alert(`بدء استفسار عن: ${serviceType}\n\nيرجى تعبئة نموذج التواصل بالأسفل.`);
+          document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+
+      // Contact form submission (works, because name attributes exist)
+      const contactForm = document.getElementById('contactForm');
+      const formStatus = document.getElementById('formStatus');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          const formData = new FormData(this);
+          const payload = Object.fromEntries(formData.entries());
+
+          console.log('Contact form submitted:', payload);
+
+          // Demo success UI
+          if (formStatus) {
+            formStatus.classList.remove('hidden');
+            formStatus.textContent = 'تم إرسال رسالتك بنجاح ✅ سنقوم بالتواصل معك خلال 24 ساعة.';
+          }
+
+          alert('شكراً لتواصلك معنا! سيتصل بك مستشارنا خلال 24 ساعة.');
+          this.reset();
+        });
+      }
+
+      // Newsletter subscription (fixed: now a real form)
+      const newsletterForm = document.getElementById('newsletterForm');
+      if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          const email = document.getElementById('newsletterEmail')?.value?.trim();
+          if (email) {
+            console.log('Newsletter subscribed:', email);
+            alert('شكراً لاشتراكك في نشرتنا الإخبارية!');
+            newsletterForm.reset();
+          }
+        });
+      }
+
+      // Cookie consent
+      const cookieConsent = document.getElementById('cookieConsent');
+      const cookieAccept = document.getElementById('cookieAccept');
+      const cookieReject = document.getElementById('cookieReject');
+      const cookieSettings = document.getElementById('cookieSettings');
+
+      if (!localStorage.getItem('cookieConsent')) {
+        setTimeout(() => { cookieConsent.classList.remove('hidden'); }, 1000);
+      }
+
+      cookieAccept?.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'accepted');
+        cookieConsent.classList.add('hidden');
+      });
+
+      cookieReject?.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'rejected');
+        cookieConsent.classList.add('hidden');
+      });
+
+      cookieSettings?.addEventListener('click', function () {
+        alert('سيتم فتح إعدادات ملفات تعريف الارتباط هنا في التطبيق الحقيقي.');
+      });
+    });
+  </script>
+</body>
+</html>
